@@ -8,17 +8,17 @@
 <div class="container-fluid">
 	<ul class="breadcrumb breadcrumb-tabs">
 	  	<li>
-	  		<a href="admin.html" class="btn btn-info">
+	  		<a href="<?php echo SERVERURL; ?>admin/" class="btn btn-info btn-lg">
 	  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVO ADMINISTRADOR
 	  		</a>
 	  	</li>
 	  	<li>
-	  		<a href="admin-list.html" class="btn btn-success">
+	  		<a href="<?php echo SERVERURL; ?>adminlist/" class="btn btn-success btn-lg">
 	  			<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE ADMINISTRADORES
 	  		</a>
 	  	</li>
 	  	<li>
-	  		<a href="admin-search.html" class="btn btn-primary">
+	  		<a href="<?php echo SERVERURL; ?>adminsearch/" class="btn btn-primary btn-lg">
 	  			<i class="zmdi zmdi-search"></i> &nbsp; BUSCAR ADMINISTRADOR
 	  		</a>
 	  	</li>
@@ -32,7 +32,7 @@
 			<h3 class="panel-title"><i class="zmdi zmdi-plus"></i> &nbsp; NUEVO ADMINISTRADOR</h3>
 		</div>
 		<div class="panel-body">
-			<form>
+			<form action="<?php echo SERVERURL; ?>ajax/administradorAjax.php" method="POST" data-form="save" class="FormularioAjax" autocomplete="off" enctype="multipart/form-data">
 		    	<fieldset>
 		    		<legend><i class="zmdi zmdi-account-box"></i> &nbsp; Información personal</legend>
 		    		<div class="container-fluid">
@@ -110,7 +110,7 @@
 									</div>
 									<div class="radio radio-primary">
 										<label>
-											<input type="radio" name="optionsGenero" id="optionsRadios2" value="Femenino">
+											<input type="radio" name="optionsGenero" id="optionsRadios2" value="Femenino" >
 											<i class="zmdi zmdi-female"></i> &nbsp; Femenino
 										</label>
 									</div>
@@ -158,9 +158,10 @@
 		    			</div>
 		    		</div>
 		    	</fieldset>
-			    <p class="text-center" style="margin-top: 20px;">
-			    	<button type="submit" class="btn btn-info btn-raised btn-sm"><i class="zmdi zmdi-floppy"></i> Guardar</button>
-			    </p>
+			    <p class="text-center" style="margin-top: 30px;">
+			    	<button type="submit" class="btn btn-info btn-raised btn-sm" ><h5><i class="zmdi zmdi-floppy"></i> GUARDAR </h5></button>
+				</p>
+				<div class="RespuestaAjax"></div>
 		    </form>
 		</div>
 	</div>

@@ -1,49 +1,49 @@
 <div class="container-fluid">
 	<div class="page-header">
-	  <h1 class="text-titles">System <small>Tiles</small></h1>
+	  <h1 class="text-titles">Sistema <small>Informacion</small></h1>
 	</div>
 </div>
 <div class="full-box text-center" style="padding: 30px 10px;">
 	<article class="full-box tile">
 		<div class="full-box tile-title text-center text-titles text-uppercase">
-			Admin
+			Administradores
 		</div>
 		<div class="full-box tile-icon text-center">
 			<i class="zmdi zmdi-account"></i>
 		</div>
 		<div class="full-box tile-number text-titles">
 			<p class="full-box">7</p>
-			<small>Register</small>
+			<small>Registrados</small>
 		</div>
 	</article>
 	<article class="full-box tile">
 		<div class="full-box tile-title text-center text-titles text-uppercase">
-			Teacher
+			Maestros
 		</div>
 		<div class="full-box tile-icon text-center">
 			<i class="zmdi zmdi-male-alt"></i>
 		</div>
 		<div class="full-box tile-number text-titles">
 			<p class="full-box">10</p>
-			<small>Register</small>
+			<small>Registrados</small>
 		</div>
 	</article>
 	<article class="full-box tile">
 		<div class="full-box tile-title text-center text-titles text-uppercase">
-			Student
+			Estudiantes
 		</div>
 		<div class="full-box tile-icon text-center">
 			<i class="zmdi zmdi-face"></i>
 		</div>
 		<div class="full-box tile-number text-titles">
 			<p class="full-box">70</p>
-			<small>Register</small>
+			<small>Registrados</small>
 		</div>
 	</article>
 </div>
 <div class="container-fluid">
 	<div class="page-header">
-	  <h1 class="text-titles">System <small>TimeLine</small></h1>
+	  <h1 class="text-titles">Sistema <small>Linea de tiempo</small></h1>
 	</div>
 	<section id="cd-timeline" class="cd-container">
         <div class="cd-timeline-block">

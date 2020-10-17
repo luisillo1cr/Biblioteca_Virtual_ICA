@@ -1,10 +1,10 @@
 <?php 
-    const SERVER="";
+    const SERVER="localhost";
     const DB="biblioteca_publica";
-    const USER="localhost";
-    const PASS="root";
+    const USER="root";
+    const PASS="";
 
-    const SGBD="mysql:host=".SERVER.";dbname="DB;
+    const SGBD="mysql:host=".SERVER.";dbname=".DB;
 
     const METHOD="AES-256-CBC";
     const SECRET_KEY='$BP@2020';

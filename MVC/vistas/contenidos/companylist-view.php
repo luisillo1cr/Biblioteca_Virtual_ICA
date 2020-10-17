@@ -1,6 +1,6 @@
 <div class="container-fluid">
 	<div class="page-header">
-	  <h1 class="text-titles"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Administración <small>EMPRESA</small></h1>
+	  <h2 class="text-titles"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Administración <small>EMPRESA</small></h2>
 	</div>
 	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
 </div>
@@ -9,12 +9,12 @@
 	<ul class="breadcrumb breadcrumb-tabs">
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>company/" class="btn btn-info">
-	  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVA EMPRESA
+			  <h5><i class="zmdi zmdi-plus"></i> &nbsp; NUEVA EMPRESA</h5>
 	  		</a>
 	  	</li>
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>companylist/" class="btn btn-success">
-	  			<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE EMPRESAS
+			  <h5><i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE EMPRESAS</h5>
 	  		</a>
 	  	</li>
 	</ul>
@@ -47,13 +47,13 @@
 							<td>bibliotecasv@gmail.com</td>
 							<td>
 								<a href="#!" class="btn btn-success btn-raised btn-xs">
-									<i class="zmdi zmdi-refresh"></i>
+									<i class="zmdi zmdi-refresh zmdi-hc-2x"></i>
 								</a>
 							</td>
 							<td>
 								<form>
 									<button type="submit" class="btn btn-danger btn-raised btn-xs">
-										<i class="zmdi zmdi-delete"></i>
+										<i class="zmdi zmdi-delete zmdi-hc-2x"></i>
 									</button>
 								</form>
 							</td>
@@ -65,13 +65,13 @@
 							<td>bibliotecaeeuu@gmail.com</td>
 							<td>
 								<a href="#!" class="btn btn-success btn-raised btn-xs">
-									<i class="zmdi zmdi-refresh"></i>
+									<i class="zmdi zmdi-refresh zmdi-hc-2x"></i>
 								</a>
 							</td>
 							<td>
 								<form>
 									<button type="submit" class="btn btn-danger btn-raised btn-xs">
-										<i class="zmdi zmdi-delete"></i>
+										<i class="zmdi zmdi-delete zmdi-hc-2x"></i>
 									</button>
 								</form>
 							</td>

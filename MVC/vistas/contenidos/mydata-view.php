@@ -1,6 +1,6 @@
 <div class="container-fluid">
 	<div class="page-header">
-	  <h1 class="text-titles"><i class="zmdi zmdi-account-circle zmdi-hc-fw"></i> MIS DATOS</small></h1>
+	  <h2 class="text-titles"><i class="zmdi zmdi-account-circle zmdi-hc-fw"></i> MIS DATOS</small></h2>
 	</div>
 	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
 </div>
@@ -51,7 +51,7 @@
 		    		</div>
 		    	</fieldset>
 			    <p class="text-center" style="margin-top: 20px;">
-			    	<button type="submit" class="btn btn-success btn-raised btn-sm"><i class="zmdi zmdi-refresh"></i> Actualizar</button>
+			    	<button type="submit" class="btn btn-success btn-raised btn-sm"><h5><i class="zmdi zmdi-refresh zmdi-hc-lg"></i> Actualizar </h5></button>
 			    </p>
 		    </form>
 		</div>

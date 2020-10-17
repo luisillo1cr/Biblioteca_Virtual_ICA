@@ -1,6 +1,6 @@
 <div class="container-fluid">
 	<div class="page-header">
-	  <h1 class="text-titles"><i class="zmdi zmdi-search zmdi-hc-fw"></i> BUSCAR LIBRO</h1>
+	  <h2 class="text-titles"><i class="zmdi zmdi-search zmdi-hc-fw"></i> BUSCAR LIBRO</h2>
 	</div>
 	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
 </div>
@@ -16,7 +16,7 @@
 			</div>
 			<div class="col-xs-12">
 				<p class="text-center">
-					<button type="submit" class="btn btn-primary btn-raised btn-sm"><i class="zmdi zmdi-search"></i> &nbsp; Buscar</button>
+					<button type="submit" class="btn btn-primary btn-raised btn-sm"><h5><i class="zmdi zmdi-search zmdi-hc-lg"></i> &nbsp; Buscar </h5></button>
 				</p>
 			</div>
 		</div>
@@ -30,7 +30,7 @@
 			<input class="form-control" type="hidden" name="search_book_destroy">
 			<div class="col-xs-12">
 				<p class="text-center">
-					<button type="submit" class="btn btn-danger btn-raised btn-sm"><i class="zmdi zmdi-delete"></i> &nbsp; Eliminar búsqueda</button>
+					<button type="submit" class="btn btn-danger btn-raised btn-sm"><h5><i class="zmdi zmdi-delete zmdi-hc-lg"></i> &nbsp; Eliminar búsqueda </h5></button>
 				</p>
 			</div>
 		</div>
@@ -44,32 +44,32 @@
 			<div class="list-group">
 				<div class="list-group-item">
 					<div class="row-picture">
-						<img class="circle" src="assets/book/book-default.png" alt="icon">
+						<img class="circle" src="<?php echo SERVERURL; ?>vistas/assets/avatars/Male2Avatar.png" alt="icon">
 					</div>
 					<div class="row-content">
 						<h4 class="list-group-item-heading">1 - Título completo del libro</h4>
 						<p class="list-group-item-text">
 							<strong>Autor: </strong>Nombre Autor del libro <br>
-							<a href="book-info.html" class="btn btn-primary" title="Más información"><i class="zmdi zmdi-info"></i></a>
-							<a href="#!" class="btn btn-primary" title="Ver PDF"><i class="zmdi zmdi-file"></i></a>
-							<a href="#!" class="btn btn-primary" title="Descargar PDF"><i class="zmdi zmdi-cloud-download"></i></a>
-							<a href="book-config.html" class="btn btn-primary" title="Gestionar libro"><i class="zmdi zmdi-wrench"></i></a>
+							<a href="book-info.html" class="btn btn-primary" title="Más información"><i class="zmdi zmdi-info zmdi-hc-lg"></i></a>
+							<a href="#!" class="btn btn-primary" title="Ver PDF"><i class="zmdi zmdi-file zmdi-hc-lg"></i></a>
+							<a href="#!" class="btn btn-primary" title="Descargar PDF"><i class="zmdi zmdi-cloud-download zmdi-hc-lg"></i></a>
+							<a href="book-config.html" class="btn btn-primary" title="Gestionar libro"><i class="zmdi zmdi-wrench zmdi-hc-lg"></i></a>
 						</p>
 					</div>
 				</div>
 				<div class="list-group-separator"></div>
 				<div class="list-group-item">
 					<div class="row-picture">
-						<img src="assets/book/book-cover.jpg" alt="icon">
+						<img src="<?php echo SERVERURL; ?>vistas/assets/avatars/Female2Avatar.png" alt="icon">
 					</div>
 					<div class="row-content">
 						<h4 class="list-group-item-heading">2 - Título completo del libro</h4>
 						<p class="list-group-item-text">
 							<strong>Autor: </strong>Nombre Autor del libro <br>
-							<a href="book-info.html" class="btn btn-primary" title="Más información"><i class="zmdi zmdi-info"></i></a>
-							<a href="#!" class="btn btn-primary" title="Ver PDF"><i class="zmdi zmdi-file"></i></a>
-							<a href="#!" class="btn btn-primary" title="Descargar PDF"><i class="zmdi zmdi-cloud-download"></i></a>
-							<a href="book-config.html" class="btn btn-primary" title="Gestionar libro"><i class="zmdi zmdi-wrench"></i></a>
+							<a href="book-info.html" class="btn btn-primary" title="Más información"><i class="zmdi zmdi-info zmdi-hc-lg"></i></a>
+							<a href="#!" class="btn btn-primary" title="Ver PDF"><i class="zmdi zmdi-file zmdi-hc-lg"></i></a>
+							<a href="#!" class="btn btn-primary" title="Descargar PDF"><i class="zmdi zmdi-cloud-download zmdi-hc-lg"></i></a>
+							<a href="book-config.html" class="btn btn-primary" title="Gestionar libro"><i class="zmdi zmdi-wrench zmdi-hc-lg"></i></a>
 						</p>
 					</div>
 				</div>

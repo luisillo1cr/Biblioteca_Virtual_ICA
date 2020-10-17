@@ -8,23 +8,23 @@
 		<!-- SideBar User info -->
 		<div class="full-box dashboard-sideBar-UserInfo">
 			<figure class="full-box">
-				<img src="<?php echo SERVERURL; ?>vistas/assets/avatars/Male1Avatar.png" alt="UserIcon">
-				<figcaption class="text-center text-titles">User name</figcaption>
+				<img src="<?php echo SERVERURL; ?>vistas/assets/avatars/<?php echo $_SESSION['foto_sbica']; ?>" alt="UserIcon">
+				<h4><figcaption class="text-center text-titles">User name</figcaption></h4>
 			</figure>
 			<ul class="full-box list-unstyled text-center">
 				<li>
-					<a href="<?php echo SERVERURL; ?>mydata//" title="Mis datos">
-						<i class="zmdi zmdi-account-circle"></i>
+					<a href="<?php echo SERVERURL; ?>mydata/" title="Mis datos">
+						<i class="zmdi zmdi-account-circle  zmdi-hc-lg"></i>
 					</a>
 				</li>
 				<li>
 					<a href="<?php echo SERVERURL; ?>myaccount/" title="Mi cuenta">
-						<i class="zmdi zmdi-settings"></i>
+						<i class="zmdi zmdi-settings  zmdi-hc-lg"></i>
 					</a>
 				</li>
 				<li>
-					<a href="#" title="Salir del sistema" class="btn-exit-system">
-						<i class="zmdi zmdi-power"></i>
+					<a href="<?php echo $lc->encryption($_SESSION['token_sbica']); ?>" title="Salir del sistema" class="btn-exit-system">
+						<i class="zmdi zmdi-power  zmdi-hc-lg"></i>
 					</a>
 				</li>
 			</ul>
@@ -33,7 +33,7 @@
 		<ul class="list-unstyled full-box dashboard-sideBar-Menu">
 			<li>
 				<a href="<?php echo SERVERURL; ?>home/">
-					<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Dashboard
+					<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Inicio
 				</a>
 			</li>
 			<li>
@@ -64,7 +64,7 @@
 						<a href="<?php echo SERVERURL; ?>admin/"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Administradores</a>
 					</li>
 					<li>
-						<a href="<?php echo SERVERURL; ?>client/"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Clientes</a>
+						<a href="<?php echo SERVERURL; ?>client/"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Estudiantes</a>
 					</li>
 				</ul>
 			</li>

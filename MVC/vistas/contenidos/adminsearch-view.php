@@ -8,17 +8,17 @@
 <div class="container-fluid">
 	<ul class="breadcrumb breadcrumb-tabs">
 	  	<li>
-	  		<a href="admin.html" class="btn btn-info">
+	  		<a href="<?php echo SERVERURL; ?>admin/" class="btn btn-info btn-lg">
 	  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVO ADMINISTRADOR
 	  		</a>
 	  	</li>
 	  	<li>
-	  		<a href="admin-list.html" class="btn btn-success">
+	  		<a href="<?php echo SERVERURL; ?>adminlist/" class="btn btn-success btn-lg">
 	  			<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE ADMINISTRADORES
 	  		</a>
 	  	</li>
 	  	<li>
-	  		<a href="admin-search.html" class="btn btn-primary">
+	  		<a href="<?php echo SERVERURL; ?>adminsearch/" class="btn btn-primary btn-lg">
 	  			<i class="zmdi zmdi-search"></i> &nbsp; BUSCAR ADMINISTRADOR
 	  		</a>
 	  	</li>
@@ -36,7 +36,7 @@
 			</div>
 			<div class="col-xs-12">
 				<p class="text-center">
-					<button type="submit" class="btn btn-primary btn-raised btn-sm"><i class="zmdi zmdi-search"></i> &nbsp; Buscar</button>
+					<button type="submit" class="btn btn-primary btn-raised btn-sm"><h5><i class="zmdi zmdi-search zmdi-hc-lg"></i> &nbsp; Buscar </h5></button>
 				</p>
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 			<input class="form-control" type="hidden" name="search_admin_destroy">
 			<div class="col-xs-12">
 				<p class="text-center">
-					<button type="submit" class="btn btn-danger btn-raised btn-sm"><i class="zmdi zmdi-delete"></i> &nbsp; Eliminar búsqueda</button>
+					<button type="submit" class="btn btn-danger btn-raised btn-sm"><h5><i class="zmdi zmdi-delete zmdi-hc-lg"></i> &nbsp; Eliminar búsqueda </h5></button>
 				</p>
 			</div>
 		</div>
@@ -61,7 +61,7 @@
 <div class="container-fluid">
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			<h3 class="panel-title"><i class="zmdi zmdi-search"></i> &nbsp; BUSCAR ADMINISTRADOR</h3>
+			<h3 class="panel-title"><i class="zmdi zmdi-search zmdi-hc-lg"></i> &nbsp; BUSCAR ADMINISTRADOR</h3>
 		</div>
 		<div class="panel-body">
 			<div class="table-responsive">
@@ -87,18 +87,18 @@
 							<td>Telefono</td>
 							<td>
 								<a href="#!" class="btn btn-success btn-raised btn-xs">
-									<i class="zmdi zmdi-refresh"></i>
+									<i class="zmdi zmdi-refresh  zmdi-hc-2x"></i>
 								</a>
 							</td>
 							<td>
 								<a href="#!" class="btn btn-success btn-raised btn-xs">
-									<i class="zmdi zmdi-refresh"></i>
+									<i class="zmdi zmdi-refresh  zmdi-hc-2x"></i>
 								</a>
 							</td>
 							<td>
 								<form>
 									<button type="submit" class="btn btn-danger btn-raised btn-xs">
-										<i class="zmdi zmdi-delete"></i>
+										<i class="zmdi zmdi-delete  zmdi-hc-2x"></i>
 									</button>
 								</form>
 							</td>
@@ -111,18 +111,18 @@
 							<td>Telefono</td>
 							<td>
 								<a href="#!" class="btn btn-success btn-raised btn-xs">
-									<i class="zmdi zmdi-refresh"></i>
+									<i class="zmdi zmdi-refresh  zmdi-hc-2x"></i>
 								</a>
 							</td>
 							<td>
 								<a href="#!" class="btn btn-success btn-raised btn-xs">
-									<i class="zmdi zmdi-refresh"></i>
+									<i class="zmdi zmdi-refresh  zmdi-hc-2x"></i>
 								</a>
 							</td>
 							<td>
 								<form>
 									<button type="submit" class="btn btn-danger btn-raised btn-xs">
-										<i class="zmdi zmdi-delete"></i>
+										<i class="zmdi zmdi-delete  zmdi-hc-2x"></i>
 									</button>
 								</form>
 							</td>

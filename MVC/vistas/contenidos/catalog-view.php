@@ -1,7 +1,7 @@
 <!-- Content page -->
 <div class="container-fluid">
 	<div class="page-header">
-	  <h1 class="text-titles"><i class="zmdi zmdi-book-image zmdi-hc-fw"></i> CATALOGO</h1>
+	  <h2 class="text-titles"><i class="zmdi zmdi-book-image zmdi-hc-fw"></i> CATALOGO</h2>
 	</div>
 	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
 </div>
@@ -33,10 +33,10 @@
 						<h4 class="list-group-item-heading">1 - Título completo del libro</h4>
 						<p class="list-group-item-text">
 							<strong>Autor: </strong>Nombre Autor del libro <br>
-							<a href="book-info.html" class="btn btn-primary" title="Más información"><i class="zmdi zmdi-info"></i></a>
-							<a href="#!" class="btn btn-primary" title="Ver PDF"><i class="zmdi zmdi-file"></i></a>
-							<a href="#!" class="btn btn-primary" title="Descargar PDF"><i class="zmdi zmdi-cloud-download"></i></a>
-							<a href="book-config.html" class="btn btn-primary" title="Gestionar libro"><i class="zmdi zmdi-wrench"></i></a>
+							<a href="book-info.html" class="btn btn-primary" title="Más información"><i class="zmdi zmdi-info zmdi-hc-lg"></i></a>
+							<a href="#!" class="btn btn-primary" title="Ver PDF"><i class="zmdi zmdi-file zmdi-hc-lg"></i></a>
+							<a href="#!" class="btn btn-primary" title="Descargar PDF"><i class="zmdi zmdi-cloud-download zmdi-hc-lg"></i></a>
+							<a href="book-config.html" class="btn btn-primary" title="Gestionar libro"><i class="zmdi zmdi-wrench zmdi-hc-lg"></i></a>
 						</p>
 					</div>
 				</div>
@@ -49,10 +49,10 @@
 						<h4 class="list-group-item-heading">2 - Título completo del libro</h4>
 						<p class="list-group-item-text">
 							<strong>Autor: </strong>Nombre Autor del libro <br>
-							<a href="book-info.html" class="btn btn-primary" title="Más información"><i class="zmdi zmdi-info"></i></a>
-							<a href="#!" class="btn btn-primary" title="Ver PDF"><i class="zmdi zmdi-file"></i></a>
-							<a href="#!" class="btn btn-primary" title="Descargar PDF"><i class="zmdi zmdi-cloud-download"></i></a>
-							<a href="book-config.html" class="btn btn-primary" title="Gestionar libro"><i class="zmdi zmdi-wrench"></i></a>
+							<a href="book-info.html" class="btn btn-primary" title="Más información"><i class="zmdi zmdi-info zmdi-hc-lg"></i></a>
+							<a href="#!" class="btn btn-primary" title="Ver PDF"><i class="zmdi zmdi-file zmdi-hc-lg"></i></a>
+							<a href="#!" class="btn btn-primary" title="Descargar PDF"><i class="zmdi zmdi-cloud-download zmdi-hc-lg"></i></a>
+							<a href="book-config.html" class="btn btn-primary" title="Gestionar libro"><i class="zmdi zmdi-wrench zmdi-hc-lg"></i></a>
 						</p>
 					</div>
 				</div>
